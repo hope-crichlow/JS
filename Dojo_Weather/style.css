@@ -28,9 +28,11 @@ nav {
 nav ul li {
     list-style-type: none;
 }
-
+main {
+    margin: 5% 10%;
+}
 .bigCity {
-    margin: 4% 10%;
+   
     display: flex;
     justify-content: space-between;
     flex-direction:row;
@@ -48,3 +50,36 @@ nav ul li {
 
 }
 
+.row {
+    display: flex;
+    gap: 15px;
+}
+
+.between {
+    justify-content: space-between;
+}
+
+.card {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 5%;
+}
+
+.card img {
+    width: 100px;
+    border: lightblue dotted 2px;
+    border-radius: 100%;
+    margin: 15px 0px;
+}
+
+.card ul {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 15px;
+}
+
+.card ul li {
+    list-style: none;
+    display: flex;
+}

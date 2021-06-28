@@ -7,3 +7,7 @@ function logOut(button) {
 function removeElement(element) {
     element.remove();
 }
+
+function likeAlert(button) {
+    window.alert("Ninja was liked");
+}

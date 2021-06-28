@@ -11,3 +11,32 @@ nav form {
     gap: 40%;
 }
 
+main {
+    display: flex;
+    justify-content: space-around;
+}
+.col-1 {
+    display: flex;
+}
+
+.col-2 {
+    display: flex;
+    
+}
+
+
+
+.card {
+    border: .5px dotted blue;
+    display: flex;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.defined {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}

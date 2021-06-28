@@ -1,0 +1,13 @@
+nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav form {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
+    gap: 40%;
+}
+

@@ -1,51 +1,95 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
-    color: rgba(26, 26, 29, 0.904);
-}
-.flex{
-    display: flex;
-}
-h4 {
-  
-}
-
-.card {
-    border: 2px solid rgba(94, 94, 107, 0.61);
-    display: flex;
-    align-content: center;
-    align-items: center;
-    flex-direction: column;
-    /* justify-content: space-evenly; */
-    gap: 10px;
-    padding: 10px;
-    max-width: 400px;
-    margin: 20px;
+    font-family:Arial, Helvetica, sans-serif;
     
 }
 
-.defined {
+.flex{
     display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    gap: 15px;
-    /* flex-direction: row; */
-   
-    /* flex: 3; */
-    /* min-width: 100px; */
+}
+
+.container {
+    margin: 0 10vw;
+    
+}
+
+nav {
+    background-color: black;
+    padding: 5px 10px;
+}
+    h1 {
+        color: white;
+    }
+
+.header{
+    text-align: center;
+    margin: 10px;
+}
+
+.main {
+    gap: 10px;
 
 }
 
-.definition {
-    display: flex;
-    /* flex: 3; */
+    .user {
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+        img{
+            width: 80%;
+        }
+
+    .comments {
+        flex-direction: column;
+        gap: 20px;
+    }
+        .card {
+            border: 2px solid rgba(94, 94, 107, 0.61);
+            color: rgba(26, 26, 29, 0.904);
+            border-radius: 1%;
+            display: flex;
+            /* align-content: center; */
+            /* align-items: center; */
+            flex-direction: column;
+            padding: 20px;
+        
+            /* justify-content: space-evenly; */
+            gap: 20px;
+       
+            /* max-width: 400px; */
+            /* margin: 10px; */
+            
+        }
+
+            .defined {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                gap: 15px;
+
+            }
+
+            .definition p{
+                text-align: left;
+            }
+            button {
+                box-shadow: 2px 2px rgb(32, 31, 31);
+                padding: 5px;
+                background-color: rgb(235, 193, 88);
+                /* margin: 10% 2% 5% 2%; */
+            }
+
+.col-1 {
+    flex: 1
 }
 
-button {
-    box-shadow: 2px 2px rgb(32, 31, 31);
-    padding: 5px;
-    background-color: rgb(235, 193, 88);
-    margin: 10% 2% 5% 2%;
-    /* min-width: 90px */
+.col-2 {
+    flex: 2
+}
+
+.col-3 {
+    flex: 3
 }

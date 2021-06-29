@@ -9,31 +9,88 @@
     <title>Likes</title>
 </head>
 <body>
-    <div class="col-2">
 
-        <div class="card">
+    <div class="container">
 
-            <div class="defined">
-                <h4>Selim </h4>
-             
-                <span id="likes">0</span>like(s)
-              
-                <button onclick="addLike()">  Like</button>
+        <nav>
+            <h1>Network</h1>
+        </nav>
+        <div class="header">
+            <h2>Your Feed</h2>
+        </div>
+
+        <div class="main flex">
+
+            <div class="col-1">
+               
+                <div class="user card flex">
+                    <img src="./Assets/user-circle.png" alt="profile pic">
+                    <a  href="#">Add an avatar</a>
+                    <h3>James Doe</h3>
+                </div>
+    
             </div>
 
-            <div class="definition">
-                <p>
-                    Trolly trolly trolly trolllll
-                </p>
-            </div>
+            <div class="comments flex col-3">
+            
+                <div class="card">
+                    <div class="defined flex">
+                        <h4>Selim </h4>
+                        <div class="likes">
+                            <p>
+                                <span id="likes1">0</span> like(s)
+                            </p>
+                        </div>
+                        <button onclick="addLike1()"> Like</button>
+                    </div>
+            
+                    <div class="definition flex">
+                        <p>I just set up this new Discord bot, let me know what y'all think <a href="#">link</a> </p>
+                    </div>
+                </div>
+                <div class="card">
 
-            <div id="hello">
-                x
-            </div>
+                    <div class="defined flex">
+                        <h4>Deidre </h4>
+                        <div class="likes">
+                            <p>
+                                <span id="likes1">0</span> like(s)
+                            </p>
+                        </div>
+                        <button onclick="addLike1()"> Like</button>
+                    </div>
+
+                    <div class="definition flex">
+                        <p>Just chillin like a <a href="#">villian</a> and whatnot</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="defined flex">
+                        <h4>Makeda </h4>
+                        <div class="likes">
+                            <p>
+                                <span id="likes1">0</span> like(s)
+                            </p>
+                        </div>
+                        <button onclick="addLike1()"> Like</button>
+                    </div>
+
+                    <div class="definition flex">
+                        <p>Patrick and his shell have been<a href="#"> living </a>rent free in my head for a while now</p>
+                    </div>
+                </div>
+            </div>      
         </div>
 
     </div>
 
-<script src="script.js"></script>
+
+    </div>
+
+
 </body>
 </html>
+
+
+

@@ -16,7 +16,9 @@ function likeAlert(button) {
 var likes = 0;
 
 function addLike(button){
+    console.log("Likes", likes);
     var givenLikes = document.getElementById("likes").innerText;
+    console.log(givenLikes);
     likes = givenLikes;
     likes ++;
     document.getElementById("likes").innerText = likes;

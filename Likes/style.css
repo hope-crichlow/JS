@@ -1,0 +1,29 @@
+.card {
+    border: 2px solid rgba(94, 94, 107, 0.61);
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+    padding: 10px;
+    max-width: 400px;
+    
+}
+
+.defined {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex: 2;
+    min-width: 100px;
+}
+
+.definition {
+    display: flex;
+    flex: 3;
+}
+
+button {
+    box-shadow: 2px 2px rgb(32, 31, 31);
+    padding: 5px 0;
+}

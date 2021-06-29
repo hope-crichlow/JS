@@ -9,52 +9,69 @@
     <title>Button Clicker</title>
 </head>
 <body>
-    <nav>
-        <h1>Dojonary</h1>
-      
-        <form action="#">
-            <input type="text" name="search" placeholder="Search">
-            <button onclick="logOut(this)">Login</button>
-        </form>
-    </nav>
+    <!-- <div class="container"> -->
+        <nav>
+            <h1>Dojonary</h1>
+        
+            <form action="#">
+                <input type="text" name="search" placeholder="Search">
+                <button onclick="logOut(this)">Login</button>
+            </form>
+        </nav>
+        
+        <main>
+            <div class="col-2">
+                <div class="card">
+        
+                    <div class="defined">
+                        <h3>ninja</h3>
+                        <em>noun</em>
+                        <p>Plural: ninjas</p>
+                        <button onclick="likeAlert(this)">13 Likes</button>
+                    </div>
+        
+                    <div class="definition">
+                        <p>
+                            A practitioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjitsu</a>
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="card">
+                                        
+                    <div class="defined">
+                        <h3>ninja</h3>
+                        <em>noun</em>
+                        <p>Plural: ninjas</p>
+                        <button onclick="likeAlert(this)">37 Likes</button>
+                    </div>
 
-    <main>
-        <div class="col-2">
-            <div class="card">
-            
-                <div class="defined">
-                    <h3>ninja</h3>
-                    <em>noun</em>
-                    <p>Plural: ninjas</p>  
-                    <button onclick="likeAlert(this)">13 Likes</button>
+                    <div class="definition">
+                        <p>
+                            A <a href="#">programmer</a> who breaks down problems with <a href="#">zen</a>-like focus
+                        </p>
+                    </div>
                 </div>
-            
-                <div class="definition">
-                    <p>
-                        A practitioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjitsu</a>
-                    </p> 
-                </div>
+        
             </div>
-
-        </div>
-
-        <div class="col-1">
-
-            <div class="card">
-                <div class="defined">
-                    <p>Dojonary is defined by YOU</p>
-                    <button onclick="removeElement(this)" >Add Definition</button>
+        
+            <div class="col-1">
+        
+                <div class="card">
+                    <div class="defined">
+                        <p>Dojonary is defined by YOU</p>
+                        <button onclick="removeElement(this)">Add Definition</button>
+                    </div>
                 </div>
+        
             </div>
-            
-        </div>
-
-    </main>
+        
+        </main>
+        
+    
     
 
-    <!-- <ol>
-        <li></li>
-        <li>A programmer who breaks down problems with zen-like focus</li>
-    </ol> -->
+    <!-- </div> -->
+    
 </body>
 </html>

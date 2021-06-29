@@ -1,29 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    color: rgba(26, 26, 29, 0.904);
+}
+
 .container {
     display: flex;
     flex-direction: column;
+    
 }
 
 nav {
     display: flex;
-    justify-content: space-evenly;
+    align-items: center;
+    justify-content: space-between;
     background-color: rgba(240, 128, 128, 0.233);
-    margin-bottom: 15px;
+    margin: 0 10%;
+    padding: 15px;
+    gap: 10px;
+    
+}
+
+.title {
+   display: flex;
+   flex: 1;
 }
 
 nav form {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: flex-end;
     align-content: center;
-    align-items: center;
-    gap: 40%;
+    gap: 15%;
+    flex: 2;
+    max-width: 300px;
 }
 
+input {
+    display: flex;
+    flex: 2;
+}
 main {
     display: flex;
-   align-content: center;
-    align-items: center;
+    align-content: center;
+    align-items: flex-start;
     justify-content: space-around;
     gap: 15px;
+    padding: 0 10%;
+    margin-top: 15px;
 }
 
 .col-1 {
@@ -47,12 +71,12 @@ main {
 
 
 .card {
-    border: .5px dotted blue;
+    border: 2px solid rgba(94, 94, 107, 0.61);
     display: flex;
     align-content: center;
     align-items: center;
     justify-content: space-around;
-    
+    gap: 10px;
     padding: 10px;
     max-width: 400px;
     
@@ -63,6 +87,7 @@ main {
     align-items: center;
     flex-direction: column;
     flex: 2;
+    min-width: 100px;
 }
 
 .definition {
@@ -71,19 +96,27 @@ main {
 }
 
 button {
-    box-shadow: 2px 2px rgb(32, 31, 31)
+    box-shadow: 2px 2px rgb(32, 31, 31);
+    padding: 5px 0;
 }
 
 nav button {
     background-color: rgb(28, 140, 231);
+    min-width: 50px;
+    text-align: center;
+    color: white;
 }
 
 .col-2 button {
     background-color: rgb(235, 193, 88);
+    margin: 10% 2% 5% 2%;
+    min-width: 90px
+
 }
 
 .col-1 button {
     min-width: 130px;
     background-color: rgb(6, 201, 91);
+    margin: 10% 2% 5% 2%;
 }
 
